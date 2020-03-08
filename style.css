@@ -1,0 +1,112 @@
+/*The whole container for the whole back ground*/
+#container{
+    position: absolute;
+    background: gainsboro;
+    width: 100%;
+    height: 100%;
+
+}
+
+/*The container for introduction, the css could be find online, open source and quite nice*/
+#container1{
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    width: 40%;
+    height: 40%;
+    padding: 1em;
+    border: 1em solid transparent;
+    background: linear-gradient(white, white) padding-box,
+    repeating-linear-gradient(-45deg, red 0, red 12.5%, transparent 0, transparent 25%, #58a 0, #58a 37.5%, transparent 0, transparent 50%) 0 / 5em 5em;
+}
+
+#intro{
+    position: relative;
+    width: 100%;
+    height: 20%;
+    font-size: x-large;
+    text-align: center;
+    overflow: hidden;
+}
+
+#photo{
+    position: relative;
+    left: 16.1vw;
+    display: inline-block;
+    border-radius: 50%;
+    min-width: 80px;
+    min-height: 80px;
+    background: url("images/profile-picture.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#profile{
+    position: relative;
+    top: 10%;
+    border: #5588aa solid 1px;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    overflow: hidden;
+}
+
+#icons{
+    position: relative;
+    top: 20%;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    font-size: x-large;
+}
+
+/*Same css for the second container*/
+#container2{
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    width: 40%;
+    height: 30%;
+    padding: 1em;
+    border: 1em solid transparent;
+    background: linear-gradient(white, white) padding-box,
+    repeating-linear-gradient(-45deg, red 0, red 12.5%, transparent 0, transparent 25%, #58a 0, #58a 37.5%, transparent 0, transparent 50%) 0 / 5em 5em;
+}
+
+#hobbies{
+    position: relative;
+    width: 100%;
+    height: 20%;
+    font-size: x-large;
+    text-align: center;
+    overflow: hidden;
+}
+
+#content{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    overflow: hidden;
+}
+
+#button{
+    position: relative;
+    top: 5%;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    overflow: hidden;
+}
+
+/*A beautiful button css*/
+#following{
+    width: 40%;
+    height: 80%;
+    color: white;
+    background: #5588aa;
+    border: 2px solid #10bbf1;
+    font: 500 100% "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0 21px;
+    border-radius: 5px;
+    overflow: hidden;
+}
